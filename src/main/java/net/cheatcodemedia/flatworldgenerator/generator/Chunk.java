@@ -36,7 +36,6 @@ public class Chunk extends ChunkGenerator {
     public ChunkData generateChunkData(World world, Random random, int chunkX, int chunkZ, BiomeGrid biome) {
         // Create the chunk
         ChunkData chunk = createChunkData(world);
-        world.setBiome(chunkX, chunkZ, Biome.VOID);
 
         if (world.getEnvironment() == World.Environment.NETHER) {
             this.fill = Material.NETHERRACK;

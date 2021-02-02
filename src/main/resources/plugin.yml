@@ -1,5 +1,6 @@
 name: FlatWorldGenerator
 version: ${project.version}
+load: startup
 main: net.cheatcodemedia.flatworldgenerator.FlatWorldGenerator
 authors: [Phil]
 description: A fully configurable flat world generator
